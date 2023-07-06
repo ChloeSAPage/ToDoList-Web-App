@@ -10,8 +10,8 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 st.title("My ToDo App")
-st.subheader("this is my todo app")
-st.write("tell Alex I love him")
+st.subheader("This is my ToDo app")
+st.write("This app increases productivity")
 
 for index, todo in enumerate(todo_list):
     checkbox = st.checkbox(todo, key=todo)
